@@ -1,11 +1,6 @@
 package greeting
 
-import "fmt"
-
+// HelloWorld returns a greeting message.
 func HelloWorld() string {
 	return "Hello, World!"
-}
-
-func main() {
-	fmt.Println(HelloWorld())
 }
